@@ -13,7 +13,5 @@ RUN cd /var/www/html && tar xzf crispy_kitchen.tgz
 CMD ["/usr/sbin/apache2ctl","-D","FOREGROUND"]
 VOLUME /var/log/apache2
 WORKDIR /var/www/html
-
-
 EXPOSE 80
 
